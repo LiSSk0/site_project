@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Привет от приложения Flask"
+    return '<h1> obezyana </h1> <br> <img src="/static/obezyana.jpg">'
 
 
 if __name__ == '__main__':
